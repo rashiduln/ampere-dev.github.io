@@ -20,9 +20,10 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("Website background2.png");
+  background-image: url("img_parallax.jpg");
   height: 100%;
 }
+
 .caption {
   position: absolute;
   left: 0;
@@ -31,6 +32,7 @@ body, html {
   text-align: center;
   color: #000;
 }
+
 .caption span.border {
   background-color: #111;
   color: #fff;
@@ -38,6 +40,7 @@ body, html {
   font-size: 25px;
   letter-spacing: 10px;
 }
+
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -46,7 +49,16 @@ h3 {
 }
 </style>
 </head>
-</style>
-</head>
+<body>
 
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border">FULL PAGE</span><br>
+    <span class="border">BACKGROUND IMAGE</span>
+  </div>
+</div>
+
+<p style="padding:5px 15px">This example creates a full page background image. Try to resize the browser window to see how it always will cover the full screen (when scrolled to top), and that it scales nicely on all screen sizes.</p>
+
+</body>
 </html>
