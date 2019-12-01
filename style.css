@@ -14,7 +14,7 @@ html {
 
 h1 {
 
-font-family: '"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+font-family: '"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif"';
 			text-transform:uppercase;
 			font-weight : 300;
 			font-size : 20px;
@@ -29,4 +29,9 @@ font-family: '"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", H
 
 .social {
 	float: right;
+}
+
+media all and (max-width:900px), (max-device-width:900px){
+body{
+background-image: url('smaller-image.gif');
 }
