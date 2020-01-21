@@ -8,115 +8,90 @@
 	<img src="Website%20background%20REV1.webp" alt="" style="width:100%; background-repeat:no-repeat;">
 	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
 	<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-	.container1 {
-	 position: absolute;
-	 min-width: 15em;
-	 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	 top: 75px;
-	 left: 200px;
-	 background: rgba(0, 0, 0, 0.6);
-	 color: white;
-	 padding-left: 20px;
-	 padding-right: 20px;
-	}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
 
-	.container2 {
-	 position: absolute;
-	 min-width: 15em;
-	 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	 top: 75px;
-	 right: 200px;
-	 background: rgba(0, 0, 0, 0.6);
-	 color: white;
-	 padding-left: 20px;
-	 padding-right: 20px;
-	}
-		
-	.container3 {
-	 position: absolute;
-	 min-width: 15em;
-	 letter-spacing: 0.1em;
-	 line-height: 1.5em;
-	 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	 top: 250px;
-	 left: 200px;
-	 background: rgba(0, 0, 0, 0.6);
-	 color: white;
-	 padding-left: 20px;
-	 padding-right: 20px;
-	}
-		
-	.container4 {
-	 position: absolute;
-	 min-width: 15em;
-	 letter-spacing: 0.1em;
-	 line-height: 1.5em;
-	 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	 top: 250px;
-	 right: 200px;
-	 background: rgba(0, 0, 0, 0.6);
-	 color: white;
-	 padding-left: 20px;
-	 padding-right: 20px;
-	}
-	</style>
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
 </head>
 <body>
-	<div class="container1">
-			<h3>Office: 888-345-LOAD<br>
-			<a href="mailto:customerservice@ampere.dev" style="text-decoration: none; color: #ffffff !important;" >customerservice@ampere.dev</a><br>
-			PO Box 101<br>
-			Friendship, MD 20758</h3>
-		</div>
-	<div class="container2">
-			<h3>Hours of Operation: Mon - Fri 7:00am - 7:00pm<br>
-			Copyright © 2020 Ampere.dev, LLC<br>
-			All rights reserved</h3>
-		</div>
-	<div class="container3">
-			<h3>CORE CAPABILITIES</h3>
-			<h4>Project Consulting – Design<br>
-			Project Management – Commissioning<br>
-			Resistive / Reactive Load Banks<br>
-			FLIR Studies<br>
-			Technical Writing<br>
-			3Ø and 1Ø Alternating Current<br>
-			Direct Current<br>
-			Low-Voltage (0 – 1000V)<br>
-			Medium-Voltage (1kV – 34.5kV)<br>
-			Power Distribution & Generation<br>
-			Switchgear  /  Schweitzer Relays<br>
-			Single-Line Diagrams<br>
-			Power Quality<br>
-			Battery Systems<br>
-			PLC Ladder Logic<br>
-			Transformers / Substations<br>
-			Custom Resistor Packages<br>
-			National Electrical Code<br>
-			Power Cable Testing<br>
-			Quality Control</h4>
-		</div>
-	<div class="container4">
-			<h3>DIFFERENTIATORS</h3> 
-			<h4>Innovative / Dynamic<br>
-			Solution / Value Selling<br>
-			Strategic Management<br>
-			Strategic Planning<br>
-			Forward Thinking<br>
-			35000 hours experience<br>
-			Market Responsiveness<br>
-			Fun to Work With<br>
-			Product Augmentation<br>
-			Fanatical About Quality<br>
-			Technical Problem Solving<br>
-			Commissioning Expertise<br>
-			24/7 Client Service<br>
-			Process Improvement<br>
-			Logistics / Supply Chain<br>
-			Improbable to Achievable<br>
-			Certified Ethical Hacker<br>
-			Project Management Pro</h4>
-	</div>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+</div>
+
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+
 </body>
 </html>
