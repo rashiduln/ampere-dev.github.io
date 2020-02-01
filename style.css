@@ -9,6 +9,19 @@ div.a{font-weight: 300;}
  font-weight: 300;
 }
 
+ h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 15px;
+}
+}
+
 .three-column-footer-contact-form-container {
   background-color: #ffffff;
 }
