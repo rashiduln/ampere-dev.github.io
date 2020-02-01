@@ -10,14 +10,14 @@ div.a{font-weight: 300;}
 }
 
 .three-column-footer-contact-form-container {
-  background-color: #323232;
+  background-color: #ffffff;
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form {
   max-width: 75rem;
   margin-right: auto;
   margin-left: auto;
-  color: #ffffff;
+  color: #323232;
   padding: 1.5rem 0;
 }
 
@@ -37,7 +37,7 @@ div.a{font-weight: 300;}
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form a {
-  color: #ffffff;
+  color: #323232;
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form .footer-left {
