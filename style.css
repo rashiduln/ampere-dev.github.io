@@ -75,7 +75,7 @@ p {
 }
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form .footer-left .input-group input {
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #323232;
 }
 
 @media print, screen and (min-width: 40em) {
