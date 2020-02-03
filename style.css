@@ -6,10 +6,6 @@ div.a{font-weight: 300;}
   margin:0;
   padding:0;
 }
-h1 {
-  font-size:25em;
-  line-height:0.7em;
-}
 
 * {
  font-size: 15px;
@@ -19,6 +15,8 @@ h1 {
 
 h1 {
   font-size: 50px;
+  font-size:25em;
+  line-height:0.7em;
 }
 
 h2 {
