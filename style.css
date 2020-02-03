@@ -4,7 +4,7 @@ div.a{font-weight: 300;}
 
 * {
   margin:.25;
-  padding:25;
+  padding:.25;
 }
 
 * {
@@ -15,7 +15,7 @@ div.a{font-weight: 300;}
 
 h1 {
   font-size: 60px;
-  line-height:0.7em;
+  line-height:0.5em;
 }
 
 h2 {
