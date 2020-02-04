@@ -225,7 +225,7 @@ color: #323232;
 
 @media print, screen and (min-width: 64em) {
   .three-column-footer-contact-form-container .three-column-footer-contact-form .footer-right {
-    width: 25%;
+    width: 29%;
     float: left;
     padding-right: 0.625rem;
     padding-left: 0.625rem;
