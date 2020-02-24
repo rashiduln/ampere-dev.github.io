@@ -1,25 +1,3 @@
-div.a {font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
-div.a {font-size: 15px;}
-div.a{font-weight: 300;}
-
-* {
-  margin: 1;
-  padding: 1;
-}
-
-h1 {
-  font-size: 60px;
-  line-height:0.4em;
-}
-
-h2 {
-  font-size: 35px;
-}
-
-h3 {
-  font-size: 20px;
-  font-weight: 300
-}
 
 .site-branding {
 float: none;
