@@ -1,30 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">	
-    <title>Ampere Designed - Innovative - Dynamic</title>
-    <meta name="description" content="Ampere provides starline tapbox rentals, load banks, commissioning support, power quality studies, transformers, IR inspections, power cables, consulting and QA/QC.">
-	<meta name="keywords" content="starline tapbox rentals, load bank rentals, load bank testing, load testing services">
-    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
-<style>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">	
+<title>Ampere Designed - Innovative - Dynamic</title>
+<meta name="description" content="Ampere provides starline tapbox rentals, load banks, commissioning support, power quality studies, transformers, IR inspections, power cables, consulting and QA/QC.">
+<meta name="keywords" content="starline tapbox rentals, load bank rentals, load bank testing, load testing services">
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Krona One&display=swap" rel="stylesheet">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157521934-1"></script>
 
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-157521934-1');
+</script>
+    <style>
+	
 p.ex1 {
   margin-left: 10px;
 }
 	
 body {
   margin: 0;
-}	
+}
+	    
 nav {
-  height: 40px;
-  background: #323232;
+  height: 45px;
+  background: rgba(255,255,255,0);
 }
 
 nav ul {
   display: flex;
-  height: 43px;
+  height: 45px;
   justify-content: space-around;
   align-items: center;
   padding: 0;
@@ -36,92 +48,203 @@ nav li {}
 
 nav a {
   display: block;
-  color: white;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif"; 
-  font-weight: 300;
-  font-size: 15px;
+  color: black;
+  font-family: "Krona One", sans-serif; 
+  font-weight: 400;
+  font-size: 14px;
   text-decoration: none;
   transition: 0.3s;
 }
 
 nav a:hover {
-  color: #B8B8B8;
+  color: #FE0002;
 }
         
 .appleNav {
-  max-width: 980px;
+  max-width: 100%;
   margin: 0 auto;
 }
-    </style>
-    </head>
+	    
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  font-family: "Helvetica Neue", sans-serif
+}
+
+.right {
+  right: 0;
+  text-align: left;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+	  
+input {
+border-top-style: hidden;
+border-right-style: hidden;
+border-left-style: hidden;
+border-bottom-style: groove;
+background-color: #e5e5e5;
+font-family: "Helvetica Neue", sans-serif
+}
+
+#submit 
+{
+    background-color: #FE0002;
+    color: white;
+    border: none;
+    font-family: 'Krona One';
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+	    
+#submit:hover
+{
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+	    
+.right-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.1); /* Black w/opacity/see-through */
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Helvetica Neue", sans-serif;
+  border: 2px solid red;
+  position: fixed;
+  top: 42%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 500px;
+  padding: 10px;
+  text-align: justify;
+}
+	    
+</style>
+</head>
 <body>
     <div class="wrapper">
   <nav>
     <div class="appleNav">
       <ul>
-        <li><a href="./"><img src="logo.webp" height="30" alt="logo"></a>
-        <li><a href="">Loadbanks</a></li>
-	<li><a href="starline-tapbox-rental.html">TapBoxes</a></li>
-        <li><a href="">Cables</a></li>
+	<li><a href="./"><h1><img src="Ampere Logo.webp" alt="AMPERE Designed - Innovative - Dynamic"  height="25"></a></h1></li>
+        <li><a href="">LOADBANKS</a></li>
+	<li><a href="starline-tapbox-rental.html">TAPBOXES</a></li>
+        <li><a href="">CABLES</a></li>
         <li><a href="">FLIR</a></li>
-        <li><a href="">Consulting</a></li>
-        <li><a href="">Power Quality</a></li>
-        <li><a href="">Transformers</a></li>
-	<li><a href="">Contact</a></li>
-        <li><a href="">Support</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href=""><img src="search.webp" height="20" alt="seearch"></a>
+        <li><a href="">POWER QUALITY</a></li>
+        <li><a href="">TRANSFORMERS</a></li>
+        <li><a href=""><img src="search dark.webp" alt="search" height="25"></a>
         </li>
       </ul>
     </div>
   </nav>
-</div>	    
+</div>
 </body>
-  <body>
-<!-- modify this form HTML and place wherever you want your form -->
- 
+	
+<body>
+
 <form
   action="https://formspree.io/mvoaqoya"
   method="POST"
->
-<center><h1 class="site-title">Contact / Inquiry Form</h1>
+>	
+	
+<div class="split left">
+  <div class="centered">
 
-<h2>Please fill out all of the appropriate fields and then click the submit button to send your inquiry.<br> A member of our organization will contact you within one business day</h2>
+<h1 class="site-title">Contact / Inquiry Form</h1>
+
 <h3>You may also call us direct at 888-345-LOAD</h3>
 
 <td height="298" width="366" colspan="3" valign="top"><div align="left">
 
-<p class="ex1">First Name: <input type="text" name="Name" size="32" required>
+<p class="ex1">First Name: <input type="text" name="Name" size="19" required>
 
-<a>Last Name: <input type="text" name="Name" size="32" required>
+<a>Last Name: <input type="text" name="Name" size="20" required>
 
-<a>Email Address: <input type="text" name="Email" size="32"required>
+<p class="ex1">Email Address: <input type="text" name="Email" size="30"required>
 	
-<p class="ex1">Phone: <input type="text" name="Phone" size="20"required>
+<a>Phone: <input type="text" name="Phone" size="10"required>
 
-<a>Company: <input type="text" name="Company_Name" size="32"required>
+<p class="ex1">Company: <input type="text" name="Company_Name" size="32"required>
 
-<a>Street Address: <input type="text" name="Street1" size="35"required>
+<p class="ex1">Street Address: <input type="text" name="Street1" size="35"required>
 	
 <p class="ex1">City: </font><input type="text" name="City" size="32"required>
 
-<a>State/Province: <input type="text" name="State/Province" size="18"required>
+<a>State/Province: <input type="text" name="State/Province" size="2"required>
 
-<a>Zip Code: <input type="text" name="Zip/Mail" size="18"required>
+<p class="ex1">Zip Code: <input type="text" name="Zip/Mail" size="5"required>
 
 <a>Country: <input type="text" name="Country" size="18"required> 
    
-<p class="ex1">Where did you hear about us? <input type="text" name="Heard_About_From" size="57"required>
+<p class="ex1">Where did you hear about us? <input type="text" name="Heard_About_From" size="62"required>
 
-<p class="ex1">Job Location (City, State) <input type="text" name="Job_Location" size="57" required>
+<p class="ex1">Job Location (City, State) <input type="text" name="Job_Location" size="41" required>
 
 <td height="81" width="591" colspan="4" valign="top" align="left"><br>
 
-<p>Please provide a short description of the inquiry or testing application.</a>
+<p class="ex1">Please provide a short description of the inquiry or testing application.</a>
 	
-<p class="ex1"><textarea rows="8" cols="77" input type="text" name="Testing_Application_Description" required></textarea>
+<p class="ex1"><textarea style="background-color: #e5e5e5" rows="8" cols="61" input type="text" name="Testing_Application_Description" required></textarea>
 
-<p class="ex1"><input type="reset" value="Reset">  <button type="submit">Submit</button>
+<input id="submit" type="submit" value="SUBMIT" />
+	</div>
+</div>
+	  </form>
+
+<div class="split right">
+<div class="right-text">
+	
+<h3><center>When you call us, here’s what we will ask you</center></h3>
+	
+<p>For alternating-current projects we need to know the voltage and wattage.
+	
+<p>When reactive loads are involved, we need to know the frequency. 
+
+<p>For direct-current projects we need to know the voltage and current.
+
+	<b><center>Technical Requirements</center></b>
+
+<p>What is the total distance between the equipment to be tested and the load banks? (feet / meters)
+
+<p>What is the expected rental period? (daily, weekly, monthly)
+
+<p>What type of equipment will be tested? (application)
+
+<p>Who will be performing the tests?
+
+<p>How will the heat be dissipated? (vertical or horizontal)
+
+<p>Where will the units be delivered?
+
+<p>Do you need help with system design or operation?
+
+<p>What date will you require the load banks on site?
+  </div>
+	</div>
 </body>
-</html>
-</form>
+</html> 
