@@ -6,4 +6,5 @@ Disallow:
 User-agent: nibbler
 Disallow: /
 
-User-agent: Disallow: /navbar2/
+User-agent: *
+Disallow: /navbar2/
