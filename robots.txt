@@ -5,3 +5,5 @@ Disallow:
 # Make nibbler ignore this site
 User-agent: nibbler
 Disallow: /
+
+User-agent: Disallow: /navbar2/
