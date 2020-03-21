@@ -1,9 +1,4 @@
 
-/*
-.three-column-footer-contact-form-container {
-  background-color: #ffffff;
-}
-*/
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form {
   color: white;
@@ -25,9 +20,6 @@
   clear: both;
 }
 
-.three-column-footer-contact-form-container .three-column-footer-contact-form a {
-  color: white;
-}
 
 .three-column-footer-contact-form-container .three-column-footer-contact-form .footer-left {
   width: 100%;
