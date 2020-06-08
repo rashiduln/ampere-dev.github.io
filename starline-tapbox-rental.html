@@ -59,60 +59,47 @@ a:hover {
   color: #FE0002;
 }
 	 
-nav {
-  height: 45px;
-  background: rgba(255,255,255,0);
-}
-
-nav ul {
-  display: flex;
-  height: 45px;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0;
-  margin: 0 auto;
-  list-style-type: none;
-}
-
-nav li {}
-
-nav a {
-  display: block;
-  color: black;
-  font-family: "Krona One", sans-serif; 
-  font-weight: 400;
-  font-size: 14px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
 nav a:hover {
   color: #FE0002;
 }
-        
-.appleNav {
-  max-width: 100%;
-  margin: 0 auto;
+
+#logo a {
+    position: absolute;
+    top: 25px;
+    left: 35px;
 }
+
+#header a {
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+    font-family: "Krona One", "Arial", "Lucida Grande", "sans-serif";
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+#footer a { 
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+    font-size: 14px;
+   /*  margin-top: 800px; */
+    font-family: "Krona One", sans-serif;
+} 
 
 </style>
 </head>
 <body>
-    <div class="wrapper">
-  <nav>
-    <div class="appleNav">
-      <ul>
-	<li><a href="./"><img src="/images/Ampere Logo.webp" alt="Logo" height="25"></a></li>
-        <li><a href="what-are-load-banks">LOAD BANKS</a></li>
-        <li><a href="starline-tapbox-rental">STARLINE</a></li>
-        <li><a href="">CABLES</a></li>
-        <li><a href="">FLIR</a></li>
-        <li><a href="">POWER QUALITY</a></li>
-        <li><a href="">TRANSFORMERS</a></li>
-      </ul>
-    </div>
-  </nav>
-</div>
+<div id="logo">
+        <a href="./"><img src="images/Ampere Logo.webp" alt="Logo" height="30"></a></div>
+<div id="header"><center>
+        <a href="what-are-load-banks">LOAD BANKS</a>
+        <a href="starline-tapbox-rental">STARLINE</a>
+        <a href="test">CABLES</a>
+        <a href="test">FLIR</a>
+        <a href="test">POWER QUALITY</a>
+        <a href="test">TRANSFORMERS</a>
+</div></center>
 </body>
 
 <style>
@@ -170,6 +157,10 @@ body {
   </div>
 </div>
 
-</div> 
+<div id="footer"><center>
+    <a href="test">AMPERE &copy; 2020</a>
+    <a href="test">PRIVACY & LEGAL</a>
+    <a href="contact">CONTACT</a>
+</div></center>
 </body>
 </html>
