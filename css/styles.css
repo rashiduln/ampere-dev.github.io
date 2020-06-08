@@ -1,0 +1,74 @@
+.box {
+    width: 80px !important;
+    height: 80px;
+    background-color: transparent;
+    margin: auto;
+} 
+  .box a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+    transition: none;
+    line-height: 1;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.box a >img{
+    width: 40px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.fa-3x {
+    font-size: 1.5em !important;
+}
+/* 
+.box:hover {
+    background-color: #323232;
+} 
+*/
+  .box:hover a{
+   color:red;
+   text-decoration:none;
+  }
+  .mission-next-arrow {
+    position: absolute;
+    top: 40%;
+    background: transparent;
+    transform: translateY(-50%);
+    right: -36px;
+    height: 17px;
+    width: 10px;
+    border:none;
+  }
+  .mission-next-arrow,.mission-prev-arrow, button > .fa{
+    color: black;
+    font-size: 2rem !important;
+  }
+  .mission-next-arrow:hover {
+    cursor: pointer;	
+  }
+  .mission-prev-arrow {
+    background: transparent;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    left: -54px;
+    height: 17px;
+    width: 10px;
+    border:none;
+  } 
+  .mission-prev-arrow:hover {
+    cursor: pointer;	
+  }
+  .box a.more-links {
+    color: #fff;
+    padding: 70px 110px 0 20px;
+    background: #a89269 url(https://raw.githubusercontent.com/solodev/icon-box-slider/master/rightarrow.png) no-repeat 155px 170px;
+  }
+  
