@@ -6,7 +6,7 @@
 <link rel="canonical" href="https://ampere.dev/starline-busway-commissioning" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="style.css">	
+	
 <title>Starline Busway Commissioning | Ampere</title>
 <meta name="description" content="Commission any Starline track busway through load banking and thermography services." />
 <meta name="keywords" content="Starline Commissioning, Starline Busway, Busway Comissioning, Track Busway" />
@@ -67,9 +67,10 @@ p.ex1 {
 /* unvisited link */
 a:link {
   color: black;
+  text-decoration: none;
 }
 
-/* vistited link */	
+/* visited link */	
 a:visited {
   color: black;
 }
@@ -78,47 +79,46 @@ a:visited {
 a:hover {
   color: #FE0002;
 }
-
-nav a {
-  display: block;
-  color: black;
-  font-family: "Krona One", sans-serif; 
-  font-weight: 400;
-  font-size: 14px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
+	
 nav a:hover {
   color: #FE0002;
 }
         
-.appleNav {
-  max-width: 100%;
-  margin: 0 auto;
+#logo a {
+    position: absolute;
+    top: 25px;
+    left: 35px;
 }
 
+#header a {
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+    font-family: "Krona One", "Arial", "Lucida Grande", "sans-serif";
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+#footer a { 
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+    font-family: "Krona One", "Arial", "Lucida Grande", "sans-serif";
+    font-size: 14px;
+}
 </style>
 </head>
 <body>
-    <div class="wrapper">
-  <nav>
-    <div class="appleNav">
-      <ul>
-	<li><a href="./"><img src="/images/Ampere Logo.webp" alt="Logo" height="25"></a></li>
-        <li><a href="what-are-load-banks">LOAD BANKS</a></li>
-        <li><a href="starline-tapbox-rental">STARLINE</a></li>
-        <li><a href="">CABLES</a></li>
-        <li><a href="">FLIR</a></li>
-        <li><a href="">POWER QUALITY</a></li>
-        <li><a href="">TRANSFORMERS</a></li>
-	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-      </ul>
-    </div>
-  </nav>
-</div>
+<div id="logo">
+        <a href="./"><img src="images/Ampere Logo.webp" alt="Logo" height="30"></a></div>
+<div id="header"><center>
+        <a href="what-are-load-banks">LOAD BANKS</a>
+        <a href="starline-tapbox-rental">STARLINE</a>
+        <a href="">CABLES</a>
+        <a href="">FLIR</a>
+        <a href="">POWER QUALITY</a>
+        <a href="">TRANSFORMERS</a>
+</div></center>
 </body>
 </head>
 <body>
@@ -154,5 +154,10 @@ nav a:hover {
 <li>Our service team can provide enhanced service plans that include periodic IR scanning based upon your internal maintenance program</li>
 <li>Perfect for all Starline Track Busway installations and Mission Critical Facilities</li>
 
-</body>
-</html>
+<div id="footer"><center>
+    <a href="">AMPERE &copy; 2020</a>
+    <a href="">PRIVACY & LEGAL</a>
+    <a href="contact">CONTACT</a>
+	<div></center>
+	</body>
+	</hmtl>
