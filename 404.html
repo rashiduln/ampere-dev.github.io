@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+    text-align:center;
+}
+	
+body {
+  margin: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  font-size: 15px;
+  overflow: hidden; /* Hide scrollbars */
+}	
+
+#myVideo {
+  width: 105%; 
+  height: 100%;
+  z-index: -1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text0 {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  border: 2px solid red;
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding: 10px;
+  text-align: justify;
+}
+
+.bg-text1 {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  border: 2px solid red;
+  position: fixed;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding: 10px;
+  text-align: justify;
+}
+</style>
+</head>
+<body>
+
+<video autoplay allowfullscreen muted loop id="myVideo">
+  <source src="video/Resistor burning .mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="bg-text0"
+	<center><h1>404 - Page Not Found</h1></center>
+
+<p>In honour of this, lets take precisely 24-seconds to watch this 68Ω 5% tolerance resistor achieve maximum capacity.</p>
+  
+<p>One of the most irritating things on the internet has to be the ‘404 Not Found’ error message. The message is a HTTP standard response code generated when a user attempts to follow a broken or dead link.
+
+<p>This explanation might be pretty straight forward, but could there be more to the story?
+	</div>
+<div class="bg-text1"	
+<p>As legend has it, the origin of the error message has a very interesting story dating all the way back to the 1980s when a group of scientists at CERN (Switzerland) started working on what would become the World Wide Web. In order to achieve this goal, the scientists worked to create a database infrastructure that offered open access to data in various formats.
+
+<p>The World Wide Web’s central database was located in the office on the fourth floor of a building — room 404 to be exact. Inside the office, two or three people were tasked with manually locating requested files and transferring them over the network to the person who made the request. But not all requests could be fulfilled, because of problems such as people entering the wrong file name. When these problems became more common, the people that made the faulty request were met with a standard message: “Room 404: file not found”.
+
+<p>The technology would eventually allow the manual processes to become automated, but the error message adopted to be the HTTP standard response code would keep the room number. Sorry, but I couldn't resist sharing this.</p>
+</div>
+
+</body>
+</html>
