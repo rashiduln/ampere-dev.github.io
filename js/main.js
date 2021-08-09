@@ -9,4 +9,11 @@ $( document ).ready(function() {
      nextArrow: "<button type='button' class='mission-next-arrow'><i class='fa fa-3x fa-chevron-circle-right'></i></button>"
  });
 
+ $(".menuToggler").click(function(){
+     $(this).toggleClass("active");
+     $("#header").toggleClass("active"); 
+ });
+
+
+
 });
