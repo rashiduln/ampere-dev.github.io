@@ -24,7 +24,7 @@
     top: 0;
     overflow: auto;
     color: #fff;
-    padding-top: 30px;
+    padding-top: 50px;
     transition: 0.5s;
   }
   #header.active {
@@ -62,7 +62,7 @@
     height: initial;
     position: static;
     transform: none;
-    margin-top: 150px;
+    margin-top: 130px;
     margin-left: auto;
     margin-right: auto;
   }
