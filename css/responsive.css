@@ -19,7 +19,7 @@
     position: fixed;
     width: 250px;
     background: rgba(0, 0, 0, 0.6);
-    height: 100vh;
+    height: 50vh;
     left: -300px;
     top: 0;
     overflow: auto;
